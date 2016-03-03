@@ -4,6 +4,11 @@
 	margin: auto;
 }
 
+.padding-lr-0{
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .block{
 	display: block;
 }
@@ -18,4 +23,12 @@
 
 .bg-lighter-gray{
 	background-color: #EBEBEB;
+}
+
+.text-black{
+	color: black;
+}
+
+.bold{
+	font-weight: bold;
 }
