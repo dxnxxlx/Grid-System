@@ -1,0 +1,21 @@
+.pdlr-2.5{
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	margin: auto;
+}
+
+.block{
+	display: block;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.bg-light-gray{
+	background-color: #D6D6D6;
+}
+
+.bg-lighter-gray{
+	background-color: #EBEBEB;
+}
