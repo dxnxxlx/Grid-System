@@ -1,5 +1,7 @@
 /* Inserta tu código aqui */
-
+*{
+	font-family: sans-serif;
+}
 
 .cuerpo{
 
@@ -13,7 +15,13 @@
 	border-color: transparent;
 }
 .cuadro-gray-articulo{
+	background-color: #929292;
+	color: white;
+	width: 100px;
+}
 
+.cuadro-gray-articulo {
+	padding: 5px 8px;
 }
 
 
