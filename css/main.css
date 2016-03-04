@@ -29,6 +29,7 @@ input.text-left{
     padding-left: 1px;
     font-size: 16px;
     padding: 3px 7px;
+    width: 50%;
 }
 
 input.enviar{
@@ -37,6 +38,7 @@ input.enviar{
     font-size: 19px;
     border: 1px solid black;
     padding: 2px 17px;
+	width: 30%;
 }
 
 header .bold{
@@ -67,7 +69,12 @@ header .bold{
 .navbar-default .navbar-toggle .icon-bar{
 	background-color: black;
 }
+ /**CUERPO**********/
 
+ .row{
+ 	margin-right: 0;
+ 	margin-left: 0;
+ }
 .cuerpo{
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -77,6 +84,7 @@ header .bold{
 	border-bottom: 1px solid #D6D6D6;
 	padding-top: 5px;
     padding-bottom: 8px;
+    padding-right: 15px;
 }
 
 .border-none{
@@ -178,61 +186,140 @@ header .bold{
 }
 
 video{
-
+	background-color: white;
+	border: 1px solid black;
+	width: 100%;
+	height: 215px;
 }
 
-.agenda{
-
+.bg-light-gray .ver-mas{
+	margin-right: 3%;
 }
+
+.bg-light-gray .clase-articulo{
+	padding-top: 0;
+	padding-left: 10px;
+}
+
+.agenda .articulo{
+	padding-top: 12px;
+	padding-bottom: 20px;
+}
+
+
 
 .fecha{
 	color: black;
 	background-color: #AAAAAA;
-	height: 50px;
-	width: 50px;
+	height: 75px;
+	width: 75px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 18px;
+	padding-top: 13px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 15px;
+}
+
+.agenda .row{
+	margin: 10px 0;
+}
+
+.datos-actividad p{
+	margin-bottom: 0;
+	line-height: 100%;
+}
+.agenda .cuadro-gray-articulo{
+	margin-bottom: 15px;
+}
+
+.mas-informacion{
+	border: none;
 }
 
 .mas-informacion p{
 	color: #A4A4A4;
 }
 
-p.titulo-extra{
-	font-size: ;
+.mas-informacion p.titulo-articulo{
 	color: black;
 }
+
+p.titulo-extra{
+	font-size: 18px;
+	font-weight: normal;
+	color: black;
+}
+
 p.titulo-extra-bold{
-	font-size: ;
+	font-size: 18px;
 	font-weight: bold;
 	color: black;
 }
 
-ul li{
-	list-style: none;
+.mas-informacion p{
+	line-height: 1;
 }
 
-.articulo ul{
+.mas-informacion div{
+	margin: 15px 0;
+}
+
+
+ul li{
+	list-style: none;
+	font-family: sans-serif;
+}
+
+.articulo ul, .lista-footer ul{
  	padding-left: 15px;
+ 	margin-top: 10px;
+
  }
+
+ .articulo li, .lista-footer li{
+ 	margin: 5px;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	color: black;
+ }
+
 
  .magazine{
  	margin-top: 3%;
- 	padding-left: 10px;
+ 	padding: 8px 15px 10px 10px;
  }
 
+.magazine .titulo-extra-bold, .titulo-extra{
+	line-height: 1;
+}
  .magazine-text{
  	color:black;
  	font-weight: bold;
  	font-size: 12px;
+ 	width: 70%;
  }
 
-footer hr{
+.magazine .texto-titulo{
 
 }
 
-.lista-footer{
+footer{
+	border-top: 7px solid #444;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
 
+.lista-footer{
+	height: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 50%;
+	float: left;
+}
+
+.lista-oculta{
+	display: none;
 }
 
 

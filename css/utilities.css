@@ -9,6 +9,10 @@
 	padding-right: 0;
 }
 
+.padding-r-8{
+	padding-right: 8px;
+	padding-left: 0;
+}
 .block{
 	display: block;
 }
@@ -19,6 +23,7 @@
 
 .bg-light-gray{
 	background-color: #D6D6D6;
+	padding: 0 5px;
 }
 
 .bg-lighter-gray{
@@ -31,4 +36,12 @@
 
 .bold{
 	font-weight: bold;
+}
+
+.pull-left{
+	float: left;
+}
+
+.pull-right{
+	float: right;
 }
